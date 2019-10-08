@@ -1,0 +1,50 @@
+.card-list{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill,20em);
+    grid-gap: 16px;
+    
+
+  
+  }
+.card{
+      text-align: center;
+      background-color:#95dada;
+      width: 250px;
+      
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 25px;
+      cursor: pointer;
+      backface-visibility: hidden; 
+     transform: translateZ(0);
+     transition: transform 0.25s ease-out
+  }
+.card:hover{
+  transform: scale(1.05)
+
+}
+.seachField-style{
+  width: 150px;
+  margin-bottom: 30px;
+  padding: 10px;
+  line-height: 30px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out
+
+  
+
+}
+.seachField-style:hover{
+  transform: scale(1.02)
+
+}
+h1{
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 72px;
+  color: #95dada
+}  
