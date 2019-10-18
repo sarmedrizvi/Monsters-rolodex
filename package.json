@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://sarmedrizvi.github.io/Monsters-rolodex",
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
